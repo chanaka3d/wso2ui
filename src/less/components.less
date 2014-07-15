@@ -1,0 +1,255 @@
+/*
+    Different Components (components.less)
+------------------------------------
+pagination
+---------
+*/
+.pagination_info{
+  color:#444;
+  line-height: 40px;
+  text-align: right;
+  padding-right:10px;
+}
+/*
+thumbnails
+---------
+*/
+.thumbnail{
+  margin-top:10px;
+  padding:10px;
+}
+.thumbnail img{
+  width: 100%;
+  height: 100%;
+}
+.thumbnail .btn-group{
+  position: absolute;
+  display: none;
+}
+/*
+Rating stars
+-------------
+*/
+.rating-filled{
+  display: block;
+  margin:5px 0;
+  font-size: 15px;
+}
+.rating-filled span.star{
+  color:#999999;
+}
+.rating-filled span.star-active{
+  color:#e3cd00;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 20px;
+  display: block;
+  text-align: left;
+}
+.rating span.star {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+}
+.rating span.star:hover {
+  cursor: pointer;
+}
+.rating span.star:before {
+  content: "\f006";
+  padding-right: 5px;
+  color: #999999;
+}
+.rating span.star:hover:before,
+.rating span.star:hover ~ span.star:before {
+  content: "\f005";
+  color: #e3cd00;
+}
+/*
+Tabs
+---------------
+*/
+.nav-tabs, .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs.nav-justified>li>a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a {
+  border: none !important
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #242a30
+}
+
+.nav-tabs {
+  background: #c1ccd1;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0
+}
+
+.nav-tabs.nav-tabs-inverse {
+  background: #242a30
+}
+
+.nav-tabs.nav-justified>li>a {
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0
+}
+
+.nav-tabs.nav-tabs-inverse>li.active>a, .nav-tabs.nav-tabs-inverse>li.active>a:focus, .nav-tabs.nav-tabs-inverse>li.active>a:hover {
+  background: #fff
+}
+
+.nav-tabs.nav-tabs-inverse>li>a:focus, .nav-tabs.nav-tabs-inverse>li>a:hover {
+  color: #fff;
+  background: 0 0
+}
+
+.nav-tabs.nav-justified>li, .nav-tabs>li {
+  margin-bottom: 0
+}
+
+.nav-tabs>li>a {
+  margin-right: 5px;
+  line-height: 20px
+}
+
+.tab-content {
+  padding: 15px;
+  margin-bottom: 20px;
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px
+}
+
+.nav-tabs+.tab-content {
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px
+}
+
+/*
+Nav pills
+------------
+*/
+
+.nav-pills {
+  margin: 0 0 10px 0;
+}
+
+.nav-pills>li+li {
+  margin-left: 5px
+}
+
+.nav-pills>li>a {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background: #242a30
+}
+/*
+Tag Cloud
+----------
+*/
+.tagcloud a{
+  display: inline-block;
+  margin-left: 4px;
+}
+.tagcloud a.lg{font-size:24px;color: #428bca;}
+.tagcloud a.md{font-size:20px;color: #4394d4;}
+.tagcloud a.nr{font-size:16px;color: #449cdd;}
+.tagcloud a.sm{font-size:11px;color: #44a7e8;}
+.tagcloud a.xs{font-size:10px;color: #45b1f3;}
+/*
+Media ( use to display hirachy content
+---------------
+*/
+.media .media-body{
+  padding-top:10px;
+}
+.link-sub-special{
+  display: block;
+  margin-top:5px;
+}
+.link-2{
+  color: #97b0f0;
+}
+
+.media .thumbnail{
+  margin-bottom: 0;
+}
+
+.item-meta{
+  margin:0 0 10px -5px;
+}
+.item-meta li{
+  float:left;
+  display: block;
+  list-style: none;
+  padding-right:5px;
+  padding-left:5px;
+  border-right:solid 1px #ccc;
+}
+.item-meta .rating-filled{
+  margin:0;
+}
+
+
+.media-list{
+  margin-left: 0;
+}
+.media .media-body{
+  padding-top:0;
+}
+/*
+Page options bar styles
+---------------
+*/
+.page-options-section{
+  background: #fff;
+  height:40px ;
+  ul{
+    margin:0;
+    height:40px ;
+    li{
+      list-style: none;
+      width:auto;
+      &:after{
+        clear: both;
+      }
+      a{
+        display: block;
+        padding:10px;
+        border-right:solid 1px #ccc;
+        cursor: pointer;
+        &:hover{
+          background: #fefefe;
+
+        }
+      }
+      &.active a{
+        background: #cfcfcf;
+      }
+    }
+  }
+  input[type="text"]{
+    line-height: 28px;
+    border:none;
+    position: relative;
+  }
+  .input-group-addon{
+    border-radius: 0;
+    border:none;
+    height: 40px;
+  }
+  input.form-control{
+    border:none;
+    border-radius: 0;
+    border-right:solid 1px #ccc;
+    height: 40px;
+  }
+}

@@ -1,0 +1,115 @@
+@leftmenu-width:190px;
+
+@leftmenu-back:@gray-dark;
+@leftmenu-text-color: lighten(@leftmenu-back,50%);
+@leftmenu-border-color:darken(@leftmenu-back,20%);
+@leftmenu-border-sub-color:lighten(@leftmenu-text-color,10%); //dotted borders
+
+//Active section
+@leftmenu-back-active:darken(@leftmenu-back,5%);
+@leftmenu-cat-color:@leftmenu-text-color;
+@leftmenu-cat-hover:darken(@leftmenu-back,10%);
+
+//Active pointer
+@leftmenu-pointer-color:@page-bg;
+
+
+@leftmenu-gutter-width:10px;
+
+.leftmenu{
+  border-top:solid 1px @leftmenu-border-color;
+  width:@leftmenu-width;
+  position: static; // not setting to absolute since we need to maintain the height of the page via the right hand side menu when the content is two small
+  float:left;
+  background: @leftmenu-back;
+  //the grey background of sidebar
+  &:before {          //This is how we fill the rest of the area with back ground color
+    position: absolute;//the relative parent is "html" element
+    z-index: -1;
+    bottom: 0;
+    top: 0;
+
+    width: inherit;
+    display: block;
+    content: "";
+
+    border-color: inherit;
+    border-style: inherit;
+    border-width: inherit;
+    background-color: inherit;
+  }
+}
+.nav-main{
+  padding:0;
+  margin:0;
+  li{
+    a{
+      color:@leftmenu-text-color;
+    }
+  }
+  >li{
+    >a{
+      padding-left: @leftmenu-gutter-width;
+      color:@leftmenu-cat-color;
+      border-bottom:solid 1px @leftmenu-border-color;
+      &:hover,&:focus,&:active{
+          background:@leftmenu-cat-hover ;
+      }
+    }
+    &.open{
+        >a{
+          &:hover,&:focus,&:active{
+            background:@leftmenu-cat-hover;
+            border:none;
+          }
+          background:@leftmenu-cat-hover;
+          border:none;
+        }
+    }
+    &.active{
+      a{
+        border-left:solid 2x @leftmenu-pointer-color;
+        background: @leftmenu-back-active;
+        &:before{
+          content: "";
+          position: absolute;
+          border-top:solid 12px transparent;
+          border-bottom:solid 12px transparent;
+          border-right:solid 6px @leftmenu-pointer-color;
+          width:0;
+          height:0;
+          right: 0;
+        }
+      }
+    }
+    &.hsub{
+      border-bottom: solid 1px @leftmenu-border-color;
+    }
+  }
+  .submenu{
+      border-left: dotted 1px @leftmenu-border-sub-color;
+      margin-left:@leftmenu-gutter-width+5px;
+      >li{
+        padding-left:@leftmenu-gutter-width;
+        position: relative;
+        >a{
+          padding:5px;
+          display: block;
+          &:after{
+            content: "";
+            position: absolute;
+            display: block;
+            border-bottom: dotted 1px @leftmenu-border-sub-color;
+            width:@leftmenu-gutter-width;
+            left:0;
+            top:16px;
+            float:none;
+          }
+        }
+      }
+  }
+}
+.menu-icon-sub{
+  color:@leftmenu-border-sub-color;
+  font-size:8px;
+}

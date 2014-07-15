@@ -1,0 +1,94 @@
+//Contains All variables
+//-----------------------
+
+//Layout
+//Side bar and logo width
+@navbar-width: 220px;
+
+//Colors
+@red: rgb(245, 53, 38);
+@green: rgb(73, 166, 92);
+@aqua: rgb(13, 182, 239);
+@yellow: rgb(243, 181, 17);
+@blue-light: rgb(64, 152, 202);
+@blue: rgb(0, 89, 183);
+@blue-dark: rgb(0, 31, 63);
+@teal: rgb(57, 204, 204);
+@olive: rgb(54, 134, 98);
+@lime: rgb(8, 255, 89);
+@orange: rgb(255, 127, 17);
+@fuchsia: rgb(240, 9, 188);
+@purple: rgb(135, 39, 167);
+@maroon: rgb(133, 0, 11);
+@black: rgb(34, 34, 34);
+@gray: rgb(234, 234, 236);
+@gray-dark: rgb(68, 68, 68);
+@white: rgb(255, 255, 255);
+
+//Link colors
+@link-color: @blue-light;
+@link-hover-color: lighten(@link-color, 15%);
+
+//Page background
+@page-bg: rgb(249, 249, 249);
+
+//Table striped color
+@table-striped-color: rgb(243, 244, 245);
+
+//Sidebar skins
+//skin blue (light) sidebar vars
+@sidebar-light-bg: rgb(244, 244, 244);
+@sidebar-light-hover-bg: rgb(249, 249, 249);
+@sidebar-light-font: rgb(85, 85, 85);
+@sidebar-light-border: rgb(219, 219, 219);
+
+//Typology colors
+@h1-color: @black;
+@h2-color: @h1-color - rgb(17, 17, 17);
+@h3-color: @h2-color - rgb(17, 17, 17);
+@h4-color: @h3-color - rgb(17, 17, 17);
+@h5-color: @h4-color - rgb(17, 17, 17);
+@h6-color: @h5-color;
+@font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+//Typology sizes
+@h1-size:32;
+@h2-size:@h1-size - 4;
+@h3-size:@h2-size - 4;
+@h4-size:@h3-size - 4;
+@h5-size:@h4-size - 4;
+@h6-size:@h5-size - 4;
+
+//Top Navigation bar
+@header-nav-border-color:@blue-light;
+@header-nav-back:@white;
+@header-nav-height:45px;
+@header-nav-logo-color:@black;
+@header-nav-logo-color-hover:@blue-dark;
+@header-nav-logo-font-size:24;
+
+@header-nav-right-back:@white;
+@header-nav-right-color:@gray-dark;
+@header-nav-right-mobile-border:@gray;
+@header-nav-right-mobile-back:@gray - rgb(34, 34, 34);
+
+//UI Settings Dropdown
+@dropdown-header-back:@blue-dark;
+@dropdown-header-color:@white;
+
+
+//Content section
+@content-gutter:20px;
+
+
+//Menu toggler styles
+@menu-toggler-strip-color:@white;
+@menu-toggler-strip-width:24px;
+
+
+//Media queries
+@mobiles: ~"only screen and (max-width:@{screen-xs-max})";
+@tablet: ~"only screen and (max-width:@{screen-sm-max}) and (min-width:@{screen-sm-min})";
+@desktop: ~"only screen and (max-width:@{screen-md-max}) and (min-width:@{screen-md-min})";
+@large: ~"only screen and (min-width:@{screen-lg})";

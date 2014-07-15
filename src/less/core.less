@@ -1,0 +1,83 @@
+/*
+    Page: 404 and 500 error pages (core.less)
+------------------------------------
+*/
+html {
+  min-height: 100%;
+  position: relative;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: @page-bg;
+  min-height: 100%;
+  padding-bottom: 0;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  color: #393939;
+  line-height: 1.5
+}
+h1 {
+  margin: 0;
+  color: @h1-color;
+  .font-size(@h1-size);
+  font-weight: 400;
+  font-family: @font-family;
+  a{
+    color:#999;
+    text-decoration: none;
+  }
+}
+
+h2 {
+  color: @h2-color;
+  .font-size(@h2-size);
+}
+h2.top-headding{
+  margin-top:10px;
+}
+h3 {
+  color: @h3-color;
+  .font-size(@h3-size);
+  font-weight: 400;
+}
+
+h4 {
+  color: @h4-color;
+  .font-size(@h4-size);
+  font-weight: 400;
+}
+
+h5 {
+  color: @h5-color;
+  .font-size(@h5-size);
+  font-weight: 400;
+}
+
+h6 {
+  color: @h6-color;
+  .font-size(@h6-size);
+  font-weight: 400;
+}
+
+ol, ul {
+  margin:0;
+  padding: 0
+}
+
+li>ul {
+  margin-left: 18px
+}
+a{
+  color:@link-color;
+  cursor: pointer;
+  &:active,&:focus{
+    text-decoration: none
+  }
+  &:hover{
+    color:@link-hover-color;
+  }
+}
+.wso2-icon {
+  text-align: center;
+}

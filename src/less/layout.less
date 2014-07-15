@@ -1,0 +1,67 @@
+/*
+    Main layout (layout.less)
+------------------------------------
+*/
+.main-container:before {
+  display: block;
+  content: "";
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  max-width: inherit;
+  bottom: 0;
+  top: 0;
+  background: #e4e6e9
+}
+
+.main-container.container:before {
+  width: inherit;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .1)
+}
+
+.main-container.container {
+  padding: 0
+}
+
+.main-container.container .footer .footer-inner .footer-content {
+  border: none
+}
+
+.compressed-content {
+  max-width: 975px
+}
+
+.main-content {
+  margin-left: 190px;
+  min-height: 100%;
+  padding: 0
+}
+
+.page-content {
+  background: #e4e6e9;
+  position: relative;
+  margin: 0;
+  padding: 8px 20px 24px;
+}
+
+@media (max-width:479px) {
+  .navbar-fixed-top+.main-container {
+    padding-top: 90px
+  }
+}
+@media only screen and (max-width:991px) {
+  .navbar-fixed-top+.main-container>.responsive {
+    position: fixed;
+    left: auto;
+    margin-left: auto;
+    -moz-backfwso2-visibility: hidden
+  }
+}
+.navbar-fixed-top+.main-container {
+  padding-top: 45px
+}
+@media (max-width:479px) {
+  .navbar-fixed-top+.main-container {
+    padding-top: 90px
+  }
+}

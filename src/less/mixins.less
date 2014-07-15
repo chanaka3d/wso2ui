@@ -1,0 +1,9 @@
+/*
+    Mixing styles (mixins.less)
+------------------------------------
+*/
+.font-size(@px) {
+  @remValue: @px/10;
+  font-size: ~"@{px}px";
+  font-size: ~"@{remValue}rem";
+}
