@@ -1,0 +1,45 @@
+.infobar{
+  img{
+    width: 100%;
+  }
+  text-align: center;
+  >div{
+    border-top: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    padding:5px;
+    background: lighten(@gray-lighter,2%);
+    vertical-align: middle;
+    min-height: 155px;
+    &:last-child {
+      border: none;
+    }
+    &:first-child{
+      border-left:solid 1px #ccc;
+    }
+    i{
+      font-size:46px;
+      color: @gray-light;
+    }
+    &.resolutions{
+      background: @white;
+      >i{
+        float:left;
+      }
+      >div{
+        border-bottom:solid 1px #ccc;
+        >div{
+          float:left;
+          margin-left:10px;
+          >div{
+            width:50px;
+          }
+        }
+        &:last-child{
+          border-bottom: none;
+        }
+      }
+
+    }
+  }
+}

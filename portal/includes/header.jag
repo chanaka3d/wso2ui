@@ -1,0 +1,78 @@
+<div id="header_nav" class="navbar navbar-fixed-top header-nav">
+    <div class="navbar-container" id="navbar-container">
+        <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#leftmenu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        <div class="navbar-header pull-left">
+            <a href="#" class="navbar-brand">
+                <small>
+                    <img src="img/wso2-logo.png" /> Developer Portal
+                </small>
+            </a>
+        </div>
+
+        <div class="navbar-buttons navbar-header pull-right" role="navigation">
+            <ul class="nav header-nav-right">
+                <li class="header-nav-search-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group-addon">
+                                <div class="dropdown">
+                                  <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-credit-card"></i>  <span class="caret"></span></a>
+                                  <ul role="menu" class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="#"><i class="fa fa-credit-card"></i>  Forms</a></li>
+                                    <li><a href="#"><i class="fa fa-table"></i>  Tables</a></li>
+                                  </ul>
+                                </div>
+                          </div>
+                          <input type="text" placeholder="Search Forms" class="form-control">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                        <img class="nav-user-photo" src="img/user.png" alt="Chanaka's Photo">
+                        <span class="user-info"><small>Welcome,</small> Chanaka</span>
+                        <i class="wso2-icon fa fa-caret-down"></i>
+                    </a>
+
+                    <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                        <li>
+                            <a href="#"><i class="wso2-icon fa fa-cog"></i>Settings</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="wso2-icon fa fa-user"></i>Profile</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="wso2-icon fa fa-power-off"></i>Logout</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="wso2-icon fa fa-cogs"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-caret dropdown-close wso2-ui-main-settings clearfix" id="wso2-ui-main-settings">
+                        <div class="dropdown-header">
+                            <i class="wso2-icon fa fa-cogs"></i>
+                            UI Settings
+                        </div>
+                        <div class="dropdown-content">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="fixed-container"> Fixed Size</label>
+                                <label><input type="checkbox" value="browser-compatibility"> Browser Compatibility</label>
+                                <label><input type="checkbox" value="developer-help"> Developer Help</label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.navbar-container -->
+</div>

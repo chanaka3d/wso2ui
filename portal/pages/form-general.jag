@@ -1,0 +1,72 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <ol class="breadcrumb">
+        <li><a href="#">WSO2 Developer Portal</a></li>
+        <li><a href="#">Forms</a></li>
+        <li class="active">Basic Form</li>
+    </ol>
+    <h1 class="pull-left hsub"><i class="fa fa-credit-card"></i> Basic Form</h1>
+</div>
+<div class="page-content ">
+    <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-8">
+            <form class="form-horizontal" id="addUserForm" role="form">
+                <div class="panel panel-default">
+                    <div class="panel-heading">You can add a new user to the system from the following table. Note: This user is only available with "foo" system.</div>
+                    <div class="panel-body">
+
+                            <div class="form-group">
+                                <label for="username" class="col-sm-2 control-label required">Username</label>
+
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="city" class="col-sm-2 control-label">City</label>
+
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="city" name="city" placeholder="City">
+
+                                    <p class="help-block">You can add the nearest city to the user.</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Activate this user
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <button class="btn btn-primary" type="submit">Add new user</button>
+                                &nbsp;
+                                <button class="btn btn-default" type="button">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-xs-12 col-md-12 col-lg-4"></div>
+
+        <div class="col-xs-12">
+          <!-- Browser check starts -->
+        <% include("browser-check/form-general-browser-check.jag"); %>
+        <!-- Browser check ends (This column can be ignored from the source since it's only for the portal)-->
+
+        <!-- Help starts -->
+        <% include("help/form-general-help.jag"); %>
+        <!-- Help ends (This column can be ignored from the source since it's only for the portal)-->
+
+        </div>
+
+    </div> <!-- row -->
+</div> <!-- page-content -->
+
+
+

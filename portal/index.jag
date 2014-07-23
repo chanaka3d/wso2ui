@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta charset="utf-8">
-    <title>WSO2 API Store</title>
+    <title>WSO2 Developer Portal - UI</title>
 
     <meta name="description" content="Static &amp; Dynamic Tables">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -24,76 +24,15 @@
 
 <body class="no-skin">
 
-
-<div id="header_nav" class="navbar navbar-fixed-top header-nav">
-    <div class="navbar-container" id="navbar-container">
-        <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler">
-            <span class="sr-only">Toggle leftmenu</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-
-        <div class="navbar-header pull-left">
-            <a href="#" class="navbar-brand">
-                <small>
-                    <img src="img/wso2-logo.png" /> API Store
-                </small>
-            </a>
-        </div>
-
-        <div class="navbar-buttons navbar-header pull-right" role="navigation">
-            <ul class="nav header-nav-right">
-                <li>
-                    <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="img/user.png" alt="Chanaka's Photo">
-                        <span class="user-info"><small>Welcome,</small> Chanaka</span>
-                        <i class="wso2-icon fa fa-caret-down"></i>
-                    </a>
-
-                    <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-                        <li>
-                            <a href="#"><i class="wso2-icon fa fa-cog"></i>Settings</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="wso2-icon fa fa-user"></i>Profile</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#"><i class="wso2-icon fa fa-power-off"></i>Logout</a>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <li>
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="wso2-icon fa fa-cogs"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-caret dropdown-close wso2-ui-main-settings clearfix" id="wso2-ui-main-settings">
-                        <div class="dropdown-header">
-                            <i class="wso2-icon fa fa-cogs"></i>
-                            UI Settings
-                        </div>
-                        <div class="dropdown-content">
-                            <div class="checkbox">
-                                <label><input type="checkbox" value="fixed-container"> Fixed Size</label>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- /.navbar-container -->
-</div>
-
+<% include("includes/header.jag"); %>
 <div class="main-container" id="main-container">
-    <div id="leftmenu" class="leftmenu responsive">
-        <% include("includes/api-store-menu.jag"); %>
-    </div>
+
+        <% include("includes/leftmenu.jag"); %>
+
 
     <div class="main-content clearfix">
         <% include("includes/notify.jag"); %>
-        <% include("includes/api-store-home.jag"); %>
+        <% include("includes/content.jag"); %>
     </div>
     <!-- /.page-content -->
     <!-- /.main-content -->
@@ -113,26 +52,18 @@
 <!-- /.main-container -->
 <script src="vendors/jquery/jquery.min.js"></script>
 <script src="vendors/jquery/jquery-migrate.min.js"></script>
+<script src="vendors/jquery.validate/jquery.validate.min.js"></script>
 
 <!--Plugin to manage local storage, session storage etc. depending on the browser-->
 <script src="vendors/amplify/amplify.min.js"></script>
 <!-- wso2 settings handler -->
 <script src="js/wso2_ui_utils.js"></script>
 <script src="js/wso2_ui_init.js"></script>
-<script src="js/thumbnails.js"></script>
 
 <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendors/prism/prism.js"></script>
+<link href="vendors/prism/prism.css" rel="stylesheet">
 
-<!-- page specific plugin scripts -->
-
-<!-- wso2 scripts -->
-<!--<script src="js/wso2.js"></script>-->
-
-<!-- inline scripts related to this page -->
-<script type="text/javascript">
-
-</script>
-
-
+<% include("includes/resource.jag"); %>
 </body>
 </html>

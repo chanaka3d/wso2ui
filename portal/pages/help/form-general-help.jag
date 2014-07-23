@@ -1,0 +1,101 @@
+<div class="help_panel">
+                <h3>Things to note</h3>
+                <p>This is a form that is directly submit to the backend without any ajax. So don't use jQuery form plugin to submit the form. Simply the form has an action to give the url which the form is submited, and
+                    "Add new user" button has given the type="submit" attribute.
+                </p>
+                <h4>Providing help</h4>
+                <p>Provide a help at the top of the form reminding what user need to do. Also try to describe what each field in the form means even it seems obious to you.</p>
+                <pre><code class="language-markup">
+
+&lt;div class="panel-heading"&gt;
+Help text goes here
+&lt;/div&gt;
+
+                </code></pre>
+            <h4>Yes/No, Ok/Cancel or submit/save?</h4>
+            <p>
+            Never use 'Yes' or 'OK' when you could use a verb instead. Note the "<strong>Add new user</strong>" button. Give this button the primary color ( If this is the main action in the form )
+            </p>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-primary"&gt;
+Add new user
+&lt;/button&gt;
+            </code> </pre>
+
+
+            <h4>Required fields</h4>
+            <p>Add "required" class to the label to mark it as required. Note: We are not using astrix to mark the required fields.</p>
+            <pre><code class="language-markup">
+&lt;label for="city" class="col-sm-2 control-label"&gt;City&lt;/label&gt;
+            </code></pre>
+
+
+            <h4>Linking label to input fields</h4>
+            <p>User should be able to get the focus to the input field via the label. This is done by giving an unique ID to the input element and giving that ID to the for attribute of the label element.</p>
+            <pre><code class="language-markup">
+&lt;label for="city" class="col-sm-2 control-label"&gt;City&lt;/label&gt;
+&lt;div class="col-sm-10"&gt;
+&lt;input type="text" class="form-control" id="username" placeholder="Username"&gt;
+&lt;/div&gt;
+            </code></pre>
+
+            <h4>Setting the focus</h4>
+            <p>The first field of the form is focused when the page load. This is done by the following script.</p>
+            <pre><code class="language-javascript">
+$('#username').focus();
+            </code></pre>
+
+            <h4>Validation</h4>
+            <p>
+            We have two types of validation with a form like this. Fist one is the validation done on each field. Mostly this is done from the client side
+            Ex: required field validation, email address validation etc..
+            Validation is done using the jquery.validate plugin. For more info refer <a href="http://jqueryvalidation.org/documentation/">http://jqueryvalidation.org/documentation/</a>.
+            Always use the following way of initiating the validation. Don't go by adding validation tags to the form elements, since it will confuse ones we need custom validations.
+            </p>
+
+            <pre><code class="language-javascript">
+$('#addUserForm').validate({
+    rules:{
+        username:{
+            required:true,
+            uservalid:true
+        }
+    }
+});
+            </code></pre>
+            <p>
+            In some cases we might want to go to the server side and validate,
+            but the error message is displayed with the relevant form field.
+            This example demo that by validating against a set of existing users from the backend. Try to enter "Chanaka" or "Sujith" in the username field to view this behavior.
+            </p>
+                        <pre><code class="language-javascript">
+jQuery.validator.addMethod("uservalid", function(value, element, params) {  // call this method from the init script which call at the document ready state.
+    var userNotFound = true;
+    wso2_ui.form_general.getUser(value).done(function(data) {  // wso2_ui.form_general.getUser is defined separately.
+        if(data=="false"){
+            userNotFound = false;
+        }
+    });
+    return  userNotFound;
+}, jQuery.validator.format("Username is already taken."));
+
+wso2_ui.form_general.getUser = function(username_in){
+    var dynamicData = {};
+    dynamicData["username"] = username_in;
+    // Returns the jQuery ajax method
+    return $.ajax({
+        url: "controls/getName.jag",
+        type: "get",
+        async:false, //Set the async false since it wouldn't do the validation otherwise.
+        data: dynamicData
+    });
+};
+            </code></pre>
+            <p>
+            The second type of validation is not bound to a certain form field or part of the form but to the whole form itself. This validation can be fall in to two categories as well.
+            </p>
+            <h5>1 - When there is an error.</h5>
+            <p>You have to show it in an unblocking manner and also retain the data user entered at the previous step.</p>
+            <h5>1 - When the action is successful.</h5>
+            <p>You have to show it in an unblocking manner and also retain the data user entered at the previous step.</p>
+</div>

@@ -2,3 +2,22 @@
     Page: 404 and 500 error pages (forums.less)
 ------------------------------------
 */
+@input-border-focus : darken(@input-border,20%);
+@border-radius-base : 0;
+.form-control:focus{
+  box-shadow:none;
+}
+.help-block{
+  margin-bottom:0;
+}
+.form-group{
+  label{
+    font-weight: normal;
+    &.required{
+      font-weight: bold;
+    }
+  }
+}
+.form-control{
+  color:@gray-dark;
+}

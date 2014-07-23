@@ -1,0 +1,34 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <ol class="breadcrumb">
+        <li><a href="#">WSO2 Developer Portal</a></li>
+        <li><a href="#">Forms</a></li>
+        <li class="active">Basic Form</li>
+    </ol>
+    <h1 class="pull-left hsub"><i class="fa fa-credit-card"></i> Uploader</h1>
+</div>
+<div class="page-content ">
+    <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-8">
+            <form class="form-horizontal dropzone" action="../controls/upload.jag" id="addUserForm" role="form">
+            <input type="file" name="file" />
+
+            </form>
+        </div>
+        <div class="col-xs-12 col-md-12 col-lg-4"></div>
+
+        <div class="col-xs-12">
+          <!-- Browser check starts -->
+        <% include("browser-check/form-general-browser-check.jag"); %>
+        <!-- Browser check ends (This column can be ignored from the source since it's only for the portal)-->
+
+        <!-- Help starts -->
+        <% include("help/form-general-help.jag"); %>
+        <!-- Help ends (This column can be ignored from the source since it's only for the portal)-->
+
+        </div>
+
+    </div> <!-- row -->
+</div> <!-- page-content -->
+
+
+

@@ -1,0 +1,9 @@
+<%
+var username = request.getParameter("username");
+var users = [{username:"Chanaka"},{username:"Sujith"}]; // The data is hard coded here.. This has to be a real call to a db or something ..
+var userNotFound = true;
+for(var i=0;i<users.length;i++){
+    if(username == users[i].username) userNotFound = false;
+}
+print(userNotFound);
+%>

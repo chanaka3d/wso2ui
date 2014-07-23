@@ -1,109 +1,144 @@
-<!-- /.leftmenu-shortcuts -->
-<ul style="top: 0px;" class="nav nav-main">
-<li class="active">
-    <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-cogs"></i>
-        <span class="menu-text"> APIs</span>
+<%
+var page = request.getParameter("page");
+if( page == null) {
+    page = "form-general";
+}
+%>
+<div id="leftmenu" class="leftmenu responsive collapse navbar-collapse">
+    <ul style="top: 0px;" class="nav nav-main">
+        <li class="hsub <% if (page == 'form-general' || page == 'form-uploader'){print('active');}%>">
+            <a href="#" class="dropdown-toggle">
+                <i class="menu-icon fa fa-credit-card"></i>
+                <span class="menu-text">Forms</span>
 
-    </a>
-</li>
-<li>
-    <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-cog"></i>
-        <span class="menu-text">Prototyped APIs</span>
-    </a>
-</li>
-<li>
-    <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-suitcase"></i>
-        <span class="menu-text">My Applications</span>
-    </a>
-</li>
-<li>
-    <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-tags"></i>
-        <span class="menu-text">My Subscriptions</span>
-    </a>
-</li>
-<li>
-    <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-comment-o"></i>
-        <span class="menu-text">Forum</span>
-    </a>
-</li>
-
-<li class="hsub">
-    <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-bar-chart-o"></i>
-        <span class="menu-text">Statistics</span>
-
-        <b class="arrow fa fa-angle-down"></b>
-    </a>
-
-    <b class="arrow"></b>
-
-    <ul class="submenu">
-        <li class="">
-            <a href="#">
-                <i class="menu-icon-sub fa fa-circle-o"></i>
-                API Usage per Application
+                <b class="arrow fa fa-angle-down"></b>
             </a>
 
             <b class="arrow"></b>
-        </li>
 
-        <li class="">
-            <a href="#">
-                <i class="menu-icon-sub fa fa-circle-o"></i>
-                Top Users per Application
+            <ul class="submenu">
+                <li class="<% if (page == 'form-general'){print('active');}%>">
+                    <a href="?page=form-general">
+                        <i class="menu-icon-sub fa fa-circle-o"></i>
+                        The form
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+
+                <li class="">
+                    <a href="#">
+                        <i class="menu-icon-sub fa fa-circle-o"></i>
+                        Long form
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <i class="menu-icon-sub fa fa-circle-o"></i>
+                        Long long collapsible form
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+                <li class="<% if (page == 'form-uploader'){print('active');}%>">
+                    <a href="?page=form-uploader">
+                        <i class="menu-icon-sub fa fa-circle-o"></i>
+                        Uploader
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+            </ul>
+        </li>
+        <li class="hsub">
+            <a href="#" class="dropdown-toggle">
+                <i class="menu-icon fa fa-table"></i>
+                <span class="menu-text">Data</span>
+
+                <b class="arrow fa fa-angle-down"></b>
             </a>
 
             <b class="arrow"></b>
+
+            <ul class="submenu">
+                <li class="active">
+                    <a href="#">
+                        <i class="menu-icon-sub fa fa-circle-o"></i>
+                        Simple table
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+
+                <li class="">
+                    <a href="#">
+                        <i class="menu-icon-sub fa fa-circle-o"></i>
+                        Data table (long)
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <i class="menu-icon-sub fa fa-circle-o"></i>
+                        Data with many columns
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+            </ul>
         </li>
-        <li class="">
-            <a href="#">
-                <i class="menu-icon-sub fa fa-circle-o"></i>
-                API Usage from Resource Path per Application
+        <li>
+            <a href="#" class="dropdown-toggle">
+                <i class="menu-icon fa fa-cog"></i>
+                <span class="menu-text">The form</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="dropdown-toggle">
+                <i class="menu-icon fa fa-suitcase"></i>
+                <span class="menu-text">Long long form</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="dropdown-toggle">
+                <i class="menu-icon fa fa-tags"></i>
+                <span class="menu-text">Register form</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="dropdown-toggle">
+                <i class="menu-icon fa fa-comment-o"></i>
+                <span class="menu-text">Login</span>
+            </a>
+        </li>
+         <li class="hsub">
+            <a href="#" class="dropdown-toggle">
+                <i class="menu-icon fa fa-wrench"></i>
+                <span class="menu-text">Tools</span>
+
+                <b class="arrow fa fa-angle-down"></b>
             </a>
 
             <b class="arrow"></b>
-        </li>
-        <li class="">
-            <a href="#">
-                <i class="menu-icon-sub fa fa-circle-o"></i>
-                API Usage from Resource Path per Application
-            </a>
 
-            <b class="arrow"></b>
-        </li>
+            <ul class="submenu">
+                <li class="">
+                    <a href="#">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        REST Client
+                    </a>
 
+                    <b class="arrow"></b>
+                </li>
+
+            </ul>
+        </li>
     </ul>
-</li>
- <li class="hsub">
-    <a href="#" class="dropdown-toggle">
-        <i class="menu-icon fa fa-wrench"></i>
-        <span class="menu-text">Tools</span>
-
-        <b class="arrow fa fa-angle-down"></b>
-    </a>
-
-    <b class="arrow"></b>
-
-    <ul class="submenu">
-        <li class="">
-            <a href="#">
-                <i class="menu-icon fa fa-caret-right"></i>
-                REST Client
-            </a>
-
-            <b class="arrow"></b>
-        </li>
-
-    </ul>
-</li>
-
-</ul>
-<!-- /.nav-list -->
-<div class="leftmenu-toggle leftmenu-collapse" id="leftmenu-collapse">
-    <i class="fa fa-chevron-left"></i>
+    <!-- /.nav-list -->
+    <div class="leftmenu-toggle leftmenu-collapse" id="leftmenu-collapse">
+        <i class="fa fa-chevron-left"></i>
+    </div>
 </div>

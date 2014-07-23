@@ -1,5 +1,5 @@
 /*
-    Page: 404 and 500 error pages (core.less)
+    (core.less)
 ------------------------------------
 */
 html {
@@ -7,15 +7,16 @@ html {
   position: relative;
   font-size: 62.5%;
 }
-
 body {
-  background-color: @page-bg;
   min-height: 100%;
   padding-bottom: 0;
   font-family: 'Open Sans';
   font-size: 13px;
   color: #393939;
   line-height: 1.5
+}
+#header_nav,#main-container{
+  min-width: @min-width-page;
 }
 h1 {
   margin: 0;
@@ -80,4 +81,7 @@ a{
 }
 .wso2-icon {
   text-align: center;
+}
+label.error{
+  color:#ff0000;
 }

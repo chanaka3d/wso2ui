@@ -1,0 +1,48 @@
+<div class="panel panel-default compatibility_panel">
+    <div class="panel-heading">
+        <h2>Compatibility</h2>
+    </div>
+    <div class="panel-body">
+        <div class="infobar">
+            <div class="col-sm-4 col-md-2 col-lg-2">
+                <img src="img/browsers/internet-explorer_256x256.png">
+                <span class="label label-danger">7</span>
+                <span class="label label-success">8+</span>
+            </div>
+             <div class="col-sm-4 col-md-2 col-lg-2">
+                <img src="img/browsers/chrome_256x256.png">
+                <span class="label label-success">34+</span>
+            </div>
+            <div class="col-sm-4 col-md-2 col-lg-2">
+                <img src="img/browsers/firefox_256x256.png">
+                <span class="label label-success">3.6+</span>
+            </div>
+            <div class="col-sm-4 col-md-2 col-lg-2">
+                <img src="img/browsers/webkit_256x256.png">
+                <span class="label label-success">7+</span>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-4 resolutions">
+                <div>
+                     <i class="fa fa-mobile"></i>
+                    <div>
+                        <div><span class="label label-success">320x480</span></div>
+                    </div>
+                </div>
+                <div>
+                     <i class="fa fa-tablet"></i>
+                    <div>
+                        <div><span class="label label-success">480x320</span></div>
+                        <div><span class="label label-success">800x600</span></div>
+                    </div>
+                </div>
+                <div>
+                     <i class="fa fa-laptop"></i>
+                    <div>
+                        <div><span class="label label-success">1024x768</span></div>
+                        <div><span class="label label-success">1920x1080</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

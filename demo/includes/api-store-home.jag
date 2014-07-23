@@ -1,0 +1,284 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <h1 class="pull-left"><i class="fa fa-cogs"></i> APIs</h1>
+</div>
+<div class="page-content ">
+
+
+<div class="row">
+<div class="col-xs-12 col-md-9 col-lg-8">
+    <div class="page-options-section clearfix">
+        <ul class="clearfix">
+            <li class="pull-left">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-search"> </i></div>
+                    <input type="text" placeholder="Search API" class="form-control">
+                </div>
+            </li>
+            <li class="pull-right">
+                <a><i class="fa fa-list tool-panel-icon"></i> </a>
+            </li>
+            <li class="active pull-right">
+                <a><i class="fa fa-th tool-panel-icon"></i> </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="row" id="thumbnail_container">
+        <div class="col-sm-4 col-md-4 col-lg-3">
+
+            <div class="thumbnail">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Subscribe to default application</a></li>
+                        <li><a href="#">Unsubscribe from all applications</a></li>
+                    </ul>
+                </div>
+                <a href="api-store-api-detail.jsp"><img src="img/04-google-spread-sheet-icon.png" alt="..." class="responsive"></a>
+
+                <div class="caption">
+                    <a href="api-store-api-detail.jsp">Google SS</a>
+                    <a class="link-sub-special link-2">Pradeep</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Subscribe to default application</a></li>
+                        <li><a href="#">Unsubscribe from all applications</a></li>
+                    </ul>
+                </div>
+                <a href="api-store-api-detail.jsp"><img src="img/03-twitter-icon.png" alt="..." class="responsive"></a>
+
+                <div class="caption">
+                    <a href="api-store-api-detail.jsp">Twitter</a>
+                    <a class="link-sub-special link-2">Chanaka</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Subscribe to default application</a></li>
+                        <li><a href="#">Unsubscribe from all applications</a></li>
+                    </ul>
+                </div>
+                <a href="api-store-api-detail.jsp"><img src="img/05-jira-icon.png" alt="..." class="responsive"></a>
+
+                <div class="caption">
+                    <a href="api-store-api-detail.jsp">Jira</a>
+                    <a class="link-sub-special link-2">Chanaka</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Subscribe to default application</a></li>
+                        <li><a href="#">Unsubscribe from all applications</a></li>
+                    </ul>
+                </div>
+                <a href="api-store-api-detail.jsp"><img src="img/06-google-drive-icon.png" alt="..." class="responsive"></a>
+
+                <div class="caption">
+                    <a href="api-store-api-detail.jsp">Google drive</a>
+                    <a class="link-sub-special link-2">Asela</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Subscribe to default application</a></li>
+                        <li><a href="#">Unsubscribe from all applications</a></li>
+                    </ul>
+                </div>
+                <a href="api-store-api-detail.jsp"><img src="img/07-paypal-icon.png" alt="..." class="responsive"></a>
+
+                <div class="caption">
+                    <a href="api-store-api-detail.jsp">Paypal</a>
+                    <a class="link-sub-special link-2">Pradeep</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Subscribe to default application</a></li>
+                        <li><a href="#">Unsubscribe from all applications</a></li>
+                    </ul>
+                </div>
+                <a href="api-store-api-detail.jsp"><img src="img/08-linkedin-icon.png" alt="..." class="responsive"></a>
+
+                <div class="caption">
+                    <a href="api-store-api-detail.jsp">Linkedin</a>
+                    <a class="link-sub-special link-2">Pradeep</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Subscribe to default application</a></li>
+                        <li><a href="#">Unsubscribe from all applications</a></li>
+                    </ul>
+                </div>
+                <a href="api-store-api-detail.jsp"><img src="img/10-gmail-icon.png" alt="..." class="responsive"></a>
+
+                <div class="caption">
+                    <a>Gmail</a>
+                    <a class="link-sub-special link-2">Pradeep</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Subscribe to default application</a></li>
+                        <li><a href="#">Unsubscribe from all applications</a></li>
+                    </ul>
+                </div>
+                <a href="api-store-api-detail.jsp"><img src="img/09-facebook-icon.png" alt="..." class="responsive"></a>
+
+                <div class="caption">
+                    <a href="api-store-api-detail.jsp">Facebook</a>
+                    <a class="link-sub-special link-2">Pradeep</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="page-options-section clearfix">
+        <div class="row">
+            <div class="col-xs-12 col-lg-6">
+                <ul class="pagination">
+                    <li class="prev disabled"><a href="#"><i class="fa fa-angle-double-left"></i></a>
+                    </li>
+                    <li class="prev disabled"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li class="next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                    <li class="next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+                <div class="pagination_info">Showing 1 to 8 of 23 entries</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div class="col-xs-6 col-md-3 col-lg-4">
+    <h2 class="top-headding">Recently Added</h2>
+
+    <div class="media">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <a href="api-store-api-detail.jsp" class="pull-left thumbnail">
+                    <img src="img/cat-01.jpg" alt="..." class="media-object responsive">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8">
+                <div class="media-body">
+                    <a href="api-store-api-detail.jsp">Cat images API</a>
+                                    <span class="rating-filled">
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star-o star"></span>
+                                        <span class="fa fa-star-o star"></span>
+                                    </span>
+                    <a class="link-sub-special link-2">Pradeep</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <a href="api-store-api-detail.jsp" class="pull-left thumbnail">
+                    <img src="img/dog1.jpg" alt="..." class="media-object responsive">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8">
+                <div class="media-body">
+                    <a href="api-store-api-detail.jsp">Dog images API</a>
+                                    <span class="rating-filled">
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star-o star"></span>
+                                        <span class="fa fa-star-o star"></span>
+                                    </span>
+                    <a class="link-sub-special link-2">Pradeep</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <a href="api-store-api-detail.jsp" class="pull-left thumbnail">
+                    <img src="img/dog2.jpg" alt="..." class="media-object responsive">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8">
+                <div class="media-body">
+                    <a href="api-store-api-detail.jsp">Cute Images API</a>
+                                    <span class="rating-filled">
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star-o star"></span>
+                                        <span class="fa fa-star-o star"></span>
+                                    </span>
+                    <a class="link-sub-special link-2">Pradeep</a>
+                </div>
+            </div>
+        </div>
+        <!-- row -->
+    </div>
+    <!-- media -->
+
+    <h2>Tag Cloud</h2>
+
+    <div class="tagcloud">
+        <a class="xs">Twitter</a>
+        <a class="md">Google</a>
+        <a class="lg">WSO2</a>
+        <a class="xs">Cloud</a>
+        <a class="xs">API</a>
+        <a class="lg">Axis2</a>
+        <a class="sm">Store</a>
+        <a class="md">Publisher</a>
+        <a class="lg">Weather</a>
+        <a class="xs">Stratos</a>
+    </div>
+</div>
+</div>
+
+</div>
+
+

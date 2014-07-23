@@ -1,0 +1,7 @@
+<%
+var page = request.getParameter("page");
+if( page == null) {
+    page = "form-general";
+}
+include("../pages/"+page+".jag");
+%>

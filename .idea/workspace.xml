@@ -1,7 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a767063a-df5c-490f-b89a-27c7d88e5eef" name="Default" comment="" />
+    <list default="true" id="a767063a-df5c-490f-b89a-27c7d88e5eef" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/03-twitter-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/04-google-spread-sheet-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/05-jira-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/06-google-drive-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/07-paypal-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/08-linkedin-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/09-facebook-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/10-gmail-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/13-ugar-crm-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/17-google-calendar-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/20-dropbox-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/21-concur-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-ExtraBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-ExtraBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-ExtraboldItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-ExtraboldItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-ExtraboldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-ExtraboldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-ExtraboldItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-ExtraboldItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-Semibold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-Semibold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-SemiboldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-SemiboldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/cat-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/img/browsers/chrome_256x256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/dog1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/dog2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/img/browsers/firefox_256x256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/guy1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/guy2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/guy3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/guy4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/img/browsers/internet-explorer_256x256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-bold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-bold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-bold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-bold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-bolditalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-bolditalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-bolditalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-bolditalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-bolditalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-bolditalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-extrabold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-extrabold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-extrabold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-extrabold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-extrabold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-extrabold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-extrabolditalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-extrabolditalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-extrabolditalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-extrabolditalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-extrabolditalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-extrabolditalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-italic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-italic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-italic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-italic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-italic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-italic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-light-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-light-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-light-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-light-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-lightitalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-lightitalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-lightitalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-lightitalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-lightitalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-lightitalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-semibold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-semibold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-semibold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-semibold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-semibold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-semibold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-semibolditalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-semibolditalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-semibolditalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-semibolditalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-semibolditalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-semibolditalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/img/browsers/opera_256x256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/user1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/user2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/user3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/user4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/img/browsers/webkit_256x256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/img/wso2-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/OpenSans-ExtraboldItalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/OpenSans-ExtraboldItalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/amplify/amplify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/includes/api-store-home.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/includes/content.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/pages/browser-check/form-general-browser-check.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/pages/help/form-general-help.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/pages/form-general.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/js/form-general.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/pages/browser-check/form-uploader-browser-check.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/pages/help/form-uploader-help.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/pages/form-uploader.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/js/form-uploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/controls/getName.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/includes/header.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/html5shiv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/infobar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/jquery/jquery-migrate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/jquery/jquery-migrate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/vendors/jquery.validate/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/includes/notify.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-bold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-bold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-bolditalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-bolditalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-extrabold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-extrabold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-extrabolditalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-extrabolditalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-italic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-italic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-light-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-light-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-lightitalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-lightitalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-semibold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-semibold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/fonts/Open_Sans/opensans-semibolditalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/fonts/Open_Sans/opensans-semibolditalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/vendors/prism/prism.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/vendors/prism/prism.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/includes/resource.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/vendors/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js/thumbnails.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/controls/upload.jag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js/wso2_ui_init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js/wso2_ui_utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/portal/includes/leftmenu.jag" afterPath="$PROJECT_DIR$/demo/includes/api-store-menu.jag" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/portal/index.jag" afterPath="$PROJECT_DIR$/demo/index.jag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/src/less/breadcrumbs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/core.less" afterPath="$PROJECT_DIR$/src/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/forms.less" afterPath="$PROJECT_DIR$/src/less/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/header.less" afterPath="$PROJECT_DIR$/src/less/header.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/index.jag" afterPath="$PROJECT_DIR$/portal/index.jag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/layout.less" afterPath="$PROJECT_DIR$/src/less/layout.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/includes/leftmenu.jag" afterPath="$PROJECT_DIR$/portal/includes/leftmenu.jag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/leftmenu.less" afterPath="$PROJECT_DIR$/src/less/leftmenu.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/panel.less" afterPath="$PROJECT_DIR$/src/less/panel.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/css/styles.css" afterPath="$PROJECT_DIR$/portal/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/styles.less" afterPath="$PROJECT_DIR$/src/less/styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/js/thumbnails.js" afterPath="$PROJECT_DIR$/portal/js/thumbnails.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/vars.less" afterPath="$PROJECT_DIR$/src/less/vars.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/js/wso2_ui_utils.js" afterPath="$PROJECT_DIR$/portal/js/wso2_ui_utils.js" />
+    </list>
     <ignored path="wso2ui.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,11 +257,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jag" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.jag" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/index.jag">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4835165" vertical-offset="0" max-vertical-offset="2145">
-              <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1110">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wso2_ui_init.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/js/wso2_ui_init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="140498" max-vertical-offset="148530">
+              <caret line="9063" column="0" selection-start-line="9063" selection-start-column="0" selection-end-line="9063" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wso2_ui_utils.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portal/js/wso2_ui_utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.51391864" vertical-offset="1485" max-vertical-offset="2640">
+              <caret line="67" column="55" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="breadcrumbs.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/breadcrumbs.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="675">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/core.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="1380">
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vars.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/vars.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1380">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/styles.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="735">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infobar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/infobar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="750">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panel.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/panel.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="420">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -86,15 +370,41 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/less/components.less" />
+        <option value="$PROJECT_DIR$/tmp.html" />
+        <option value="$PROJECT_DIR$/src/less/styles.less" />
+        <option value="$PROJECT_DIR$/src/less/panel.less" />
+        <option value="$PROJECT_DIR$/src/less/infobar.less" />
+        <option value="$PROJECT_DIR$/src/less/vars.less" />
+        <option value="$PROJECT_DIR$/src/less/breadcrumbs.less" />
+        <option value="$PROJECT_DIR$/src/less/leftmenu.less" />
+        <option value="$PROJECT_DIR$/src/less/layout.less" />
+        <option value="$PROJECT_DIR$/portal/js/thumbnails.js" />
+        <option value="$PROJECT_DIR$/src/less/forms.less" />
+        <option value="$PROJECT_DIR$/src/less/core.less" />
+        <option value="$PROJECT_DIR$/portal/controls/getName.jag" />
+        <option value="$PROJECT_DIR$/portal/js/form-general.js" />
+        <option value="$PROJECT_DIR$/portal/includes/form-general.jag" />
+        <option value="$PROJECT_DIR$/portal/includes/content.jag" />
+        <option value="$PROJECT_DIR$/portal/includes/header.jag" />
+        <option value="$PROJECT_DIR$/src/less/header.less" />
         <option value="$PROJECT_DIR$/portal/index.jag" />
+        <option value="$PROJECT_DIR$/portal/pages/form-general-help.jag" />
+        <option value="$PROJECT_DIR$/portal/pages/form-general-browser-check.jag" />
+        <option value="$PROJECT_DIR$/portal/js/form-uploader.js" />
+        <option value="$PROJECT_DIR$/portal/includes/leftmenu.jag" />
+        <option value="$PROJECT_DIR$/portal/pages/form-general.jag" />
+        <option value="$PROJECT_DIR$/portal/js/wso2_ui_utils.js" />
+        <option value="$PROJECT_DIR$/portal/pages/help/form-general-help.jag" />
+        <option value="$PROJECT_DIR$/portal/includes/resource.jag" />
+        <option value="$PROJECT_DIR$/portal/pages/form-uploader.jag" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1922" />
-    <option name="height" value="1056" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -122,7 +432,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,6 +496,154 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="help" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="browser-check" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wso2ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -194,6 +651,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,6 +664,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesjaggery" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portal/pages" />
+      <recent name="$PROJECT_DIR$/portal/includes" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portal/pages/help" />
+      <recent name="$PROJECT_DIR$/portal/pages/browser-check" />
+      <recent name="$PROJECT_DIR$/portal/pages" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -437,15 +910,25 @@
       <created>1405414194758</created>
       <updated>1405414194758</updated>
       <workItem from="1405414195968" duration="203000" />
-      <workItem from="1405414406481" duration="262000" />
+      <workItem from="1405414406481" duration="5857000" />
+      <workItem from="1405443852894" duration="2264000" />
+      <workItem from="1405484240426" duration="16309000" />
+      <workItem from="1405572217943" duration="22496000" />
+      <workItem from="1405614626903" duration="2352000" />
+      <workItem from="1405657915183" duration="10217000" />
+      <workItem from="1405847689317" duration="3504000" />
+      <workItem from="1405916797192" duration="18578000" />
+      <workItem from="1405961953835" duration="1209000" />
+      <workItem from="1406023391726" duration="6243000" />
+      <workItem from="1406093770583" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465000" />
+    <option name="totallyTimeSpent" value="89514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -457,7 +940,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -466,12 +949,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -499,11 +983,108 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/less/breadcrumbs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="600">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/core.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1320">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/includes/leftmenu.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1710">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/thumbnails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/tmp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/404_500_errors.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/index.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2145">
+          <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/pages/form-general.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="4365">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/breadcrumbs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1095">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/core.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1320">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/includes/leftmenu.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1710">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/thumbnails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/tmp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/404_500_errors.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portal/index.jag">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
           <caret line="20" column="79" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,10 +1095,257 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/tmp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="934">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/thumbnails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/404_500_errors.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="934">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/components.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3320" max-vertical-offset="3900">
+          <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/leftmenu.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.375" vertical-offset="135" max-vertical-offset="2100">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="900">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/js/thumbnails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06423983" vertical-offset="0" max-vertical-offset="934">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/forms.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="420">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="945" max-vertical-offset="3525">
+          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/js/form-uploader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/includes/leftmenu.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54395604" vertical-offset="180" max-vertical-offset="2235">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/js/form-general.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/pages/browser-check/form-uploader-browser-check.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/pages/help/form-uploader-help.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/pages/browser-check/form-general-browser-check.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/controls/getName.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13186814" vertical-offset="0" max-vertical-offset="910">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/controls/upload.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="934">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/pages/form-uploader.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="600">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/includes/resource.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="435">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/pages/help/form-general-help.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/pages/form-general.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="4" column="81" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/vendors/dropzone/css/dropzone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.32" vertical-offset="2282" max-vertical-offset="6045">
+          <caret line="181" column="77" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/includes/content.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/includes/header.jag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.416667" vertical-offset="80" max-vertical-offset="1260">
+          <caret line="22" column="90" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portal/index.jag">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4835165" vertical-offset="0" max-vertical-offset="2145">
-          <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1110">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/core.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="1380">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/breadcrumbs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="675">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/vars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1380">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/infobar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="750">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/panel.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="420">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="140498" max-vertical-offset="148530">
+          <caret line="9063" column="0" selection-start-line="9063" selection-start-column="0" selection-end-line="9063" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="735">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/js/wso2_ui_init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/js/wso2_ui_utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.51391864" vertical-offset="1485" max-vertical-offset="2640">
+          <caret line="67" column="55" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
           <folding />
         </state>
       </provider>
