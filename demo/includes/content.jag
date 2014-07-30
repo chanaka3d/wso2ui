@@ -1,0 +1,7 @@
+<%
+var page = request.getParameter("page");
+if( page == null) {
+    page = "api-home";
+}
+include("../pages/"+page+".jag");
+%>

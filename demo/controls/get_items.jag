@@ -1,0 +1,12 @@
+<%
+var from = request.getParameter("from");
+var to = request.getParameter("to");
+
+var file = new File("../data/apis.txt");
+file.open("r");
+var text = file.readAll();
+var allApis = text.split("\n");
+var selectedAPIs = allApis.slice(parseInt(from),parseInt(to));
+print(selectedAPIs);
+file.close();
+%>

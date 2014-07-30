@@ -1,9 +1,14 @@
 //Constraints
 var WSO2_UI_MAIN_LEFTMENU = "WSO2_UI_MAIN_LEFTMENU";
 var WSO2_UI_FIXED_CONTAINER = "WSO2_UI_FIXED_CONTAINER";
+var WSO2_UI_SHOW_HELP = "WSO2_UI_SHOW_HELP";
+var WSO2_UI_SHOW_COMPATIBILITY = "WSO2_UI_SHOW_COMPATIBILITY";
 if( !('wso2_ui' in window) ) window['wso2_ui'] = {}; //see the object wso2_ui exists and create it if not.
-
-//methods for right side pane
+/*******************************
+*
+ * Notify pane on right
+ *
+ *****************************/
 wso2_ui.rightPanel = {};
 wso2_ui.rightPanel.setRightSize = function(){
     $('.scrollable').height($(document).height() - 160 - parseInt($('.scrollable').position().top));
@@ -23,6 +28,12 @@ wso2_ui.rightPanel.init = function(){
     });
     wso2_ui.rightPanel.setRightSize();
 };
+
+/********************************
+ *
+ * Left menu
+ *
+ *******************************/
 wso2_ui.leftmenu = {};
 wso2_ui.leftmenu.init = function(){
     $('#leftmenu-collapse').click(function(){
@@ -66,27 +77,68 @@ wso2_ui.leftmenu.init = function(){
         $leftmenu.removeClass("menu-min");
     }
 };
+/********************************
+ *
+ * Settings box
+ *
+ *******************************/
 wso2_ui.settings_box = {};
 wso2_ui.settings_box.init = function(){
     $('#wso2-ui-main-settings').on("click","input, label", function(e){
         var $checkBox = $(this);
-        if($checkBox.prop("checked")){
-            wso2_ui.settings_box.toggleFixedSize('fixed');
-        }else{
-            wso2_ui.settings_box.toggleFixedSize('');
+        if($checkBox.val() == "fixed-container"){
+            if($checkBox.prop("checked")){
+                wso2_ui.settings_box.toggleFixedSize('fixed');
+            }else{
+                wso2_ui.settings_box.toggleFixedSize('');
+            }
+        }else if($checkBox.val() == "developer-help"){
+            if($checkBox.prop("checked")){
+                wso2_ui.settings_box.toggleHelp('show');
+            }else{
+                wso2_ui.settings_box.toggleHelp('');
+            }
+        }else if($checkBox.val() == "browser-compatibility"){
+            if($checkBox.prop("checked")){
+                wso2_ui.settings_box.toggleCompatibility('show');
+            }else{
+                wso2_ui.settings_box.toggleCompatibility('');
+            }
         }
+
         e.stopPropagation();
     });
 
+    //checking the fixed size
     if(amplify.store(WSO2_UI_FIXED_CONTAINER) == "fixed"){
         $('#main-container').addClass("container");
         $('#navbar-container').addClass("container");
+        $('#wso2-ui-main-settings input[value="fixed-container"]').prop("checked",true);
+
     }else{
         $('#main-container').removeClass("container");
         $('#navbar-container').removeClass("container");
+        $('#wso2-ui-main-settings input[value="fixed-container"]').prop("checked",false);
+
     }
 
+    //checking the help visibility
+    if(amplify.store(WSO2_UI_SHOW_HELP) == "show"){
+        $('.help_panel').show();
+        $('#wso2-ui-main-settings input[value="developer-help"]').prop("checked",true);
+    }else{
+        $('.help_panel').hide();
+        $('#wso2-ui-main-settings input[value="developer-help"]').prop("checked",false);
+    }
 
+    //checking the compatibility visibility
+    if(amplify.store(WSO2_UI_SHOW_COMPATIBILITY) == "show"){
+        $('.compatibility_panel').show();
+        $('#wso2-ui-main-settings input[value="browser-compatibility"]').prop("checked",true);
+    }else{
+        $('.compatibility_panel').hide();
+        $('#wso2-ui-main-settings input[value="browser-compatibility"]').prop("checked",false);
+    }
 };
 wso2_ui.settings_box.toggleFixedSize = function(state){
     if(state == "fixed"){
@@ -98,4 +150,50 @@ wso2_ui.settings_box.toggleFixedSize = function(state){
         $('#navbar-container').removeClass("container");
         amplify.store(WSO2_UI_FIXED_CONTAINER,"");
     }
+};
+wso2_ui.settings_box.toggleHelp = function(state){
+    if(state == "show"){
+        $('.help_panel').show();
+        amplify.store(WSO2_UI_SHOW_HELP,"show");
+    }else{
+        $('.help_panel').hide();
+        amplify.store(WSO2_UI_SHOW_HELP,"");
+    }
+};
+wso2_ui.settings_box.toggleCompatibility = function(state){
+    if(state == "show"){
+        $('.compatibility_panel').show();
+        amplify.store(WSO2_UI_SHOW_COMPATIBILITY,"show");
+    }else{
+        $('.compatibility_panel').hide();
+        amplify.store(WSO2_UI_SHOW_COMPATIBILITY,"");
+    }
+};
+
+/********************************
+ *
+ * Loading animation
+ *
+ *******************************/
+wso2_ui.loadingAnimation = {};
+wso2_ui.loadingAnimation.show = function(container){
+    var $container = $(container);
+    $('.modal-backdrop-inside',$container).remove();
+    $container.append('<div class="modal-backdrop fade in modal-backdrop-inside"><i class="fa fa-circle-o-notch fa-spin wso2-icon-on-top"></i></div>');
+
+};
+wso2_ui.loadingAnimation.hide = function(container){
+    var $container = $(container);
+    $('.modal-backdrop-inside',$container).remove();
+};
+wso2_ui.loadingAnimationInline = {};
+wso2_ui.loadingAnimationInline.show = function(container){
+    var $container = $(container);
+    $('.loading-inline-container',$container).remove();
+    $container.append('<div class="loading-inline-container"><i class="fa fa-circle-o-notch fa-spin wso2-icon-on-top"></i></div>');
+
+};
+wso2_ui.loadingAnimationInline.hide = function(container){
+    var $container = $(container);
+    $('.loading-inline-container',$container).remove();
 };

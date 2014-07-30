@@ -1,0 +1,305 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <h1 class="pull-left"><i class="fa fa-cogs"></i> APIs</h1>
+</div>
+<div class="page-content ">
+    <div class="row" id="thumbnail_container_all" style="display: none">
+        <div class="col-xs-12">
+            <div class="item-loading-container">
+
+            </div>
+            <div class="thumbnails">
+
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><i class="fa fa-angle-double-down wso2-icon-thumbnail"></i> </a>
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Google Storage Server</a>
+                        <a class="link-h2">Pradeep</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="thumbnail_container">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            <div class="thumbnails-fixed">
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/04-google-spread-sheet-icon.png" alt="..."
+                                                            class="responsive"></a>
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Google Storage Server</a>
+                        <a class="link-h2">Pradeep</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/03-twitter-icon.png" alt="..." class="responsive"></a>
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Twitter Feed Manager</a>
+                        <a class="link-h2">Asela Guru</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+
+                    <a  href="?page=api-details"><img src="img/05-jira-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">JIRA Issue Publisher</a>
+                        <a class="link-h2">Sumedha Boss</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+
+                    <a  href="?page=api-details"><img src="img/06-google-drive-icon.png" alt="..." class="responsive"></a>
+
+                   <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Google Drive</a>
+                        <a class="link-h2">Sanjiva Big Boss</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/07-paypal-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Paypal Payment Reviewer</a>
+                        <a class="link-h2">Pradeep</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/08-linkedin-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">LinkedIn Profile Viewer</a>
+                        <a class="link-h2">Pradeep</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/10-gmail-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Gmail Mail Manager</a>
+                        <a class="link-h2">Sameera</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+
+                    <a  href="?page=api-details"><img src="img/09-facebook-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Facebook Notifications</a>
+                        <a class="link-h2">Prabath S</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" data-info="show_more">Show More</button>
+            <hr>
+            <h2>Recent APIs</h2>
+            <div class="thumbnails-fixed">
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/04-google-spread-sheet-icon.png" alt="..."
+                                                            class="responsive"></a>
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Google Storage Server</a>
+                        <a class="link-h2">Pradeep</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/03-twitter-icon.png" alt="..." class="responsive"></a>
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Twitter Feed Manager</a>
+                        <a class="link-h2">Asela Guru</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+
+                    <a  href="?page=api-details"><img src="img/05-jira-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">JIRA Issue Publisher</a>
+                        <a class="link-h2">Sumedha Boss</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+
+                    <a  href="?page=api-details"><img src="img/06-google-drive-icon.png" alt="..." class="responsive"></a>
+
+                   <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Google Drive</a>
+                        <a class="link-h2">Sanjiva Big Boss</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/07-paypal-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Paypal Payment Reviewer</a>
+                        <a class="link-h2">Pradeep</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/08-linkedin-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">LinkedIn Profile Viewer</a>
+                        <a class="link-h2">Pradeep</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <a  href="?page=api-details"><img src="img/10-gmail-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Gmail Mail Manager</a>
+                        <a class="link-h2">Sameera</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="thumbnail">
+
+                    <a  href="?page=api-details"><img src="img/09-facebook-icon.png" alt="..." class="responsive"></a>
+
+                    <div class="caption">
+                        <a class="link-h1"  href="?page=api-details">Facebook Notifications</a>
+                        <a class="link-h2">Prabath S</a>
+
+                        <span class="rating-filled">
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star star-active"></span>
+                            <span class="fa fa-star-o star"></span>
+                            <span class="fa fa-star-o star"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" data-info="show_more">Show More</button>
+        </div>
+    </div><!-- row -->
+</div> <!-- page-content -->
+
+
+

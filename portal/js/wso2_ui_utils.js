@@ -123,16 +123,18 @@ wso2_ui.settings_box.init = function(){
     }
 
     //checking the help visibility
-    if(amplify.store(WSO2_UI_SHOW_HELP) == "show"){
+    if(amplify.store(WSO2_UI_SHOW_HELP) == "show" ||  amplify.store(WSO2_UI_SHOW_HELP) == undefined){
         $('.help_panel').show();
         $('#wso2-ui-main-settings input[value="developer-help"]').prop("checked",true);
+
     }else{
         $('.help_panel').hide();
         $('#wso2-ui-main-settings input[value="developer-help"]').prop("checked",false);
+
     }
 
     //checking the compatibility visibility
-    if(amplify.store(WSO2_UI_SHOW_COMPATIBILITY) == "show"){
+    if(amplify.store(WSO2_UI_SHOW_COMPATIBILITY) == "show" ||  amplify.store(WSO2_UI_SHOW_COMPATIBILITY) == undefined){
         $('.compatibility_panel').show();
         $('#wso2-ui-main-settings input[value="browser-compatibility"]').prop("checked",true);
     }else{

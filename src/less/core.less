@@ -22,7 +22,7 @@ h1 {
   margin: 0;
   color: @h1-color;
   .font-size(@h1-size);
-  font-weight: 400;
+  font-weight: 200;
   font-family: @font-family;
   a{
     color:#999;
@@ -31,6 +31,7 @@ h1 {
 }
 
 h2 {
+  font-weight: 200;
   color: @h2-color;
   .font-size(@h2-size);
 }
@@ -38,30 +39,31 @@ h2.top-headding{
   margin-top:10px;
 }
 h3 {
+
   color: @h3-color;
   .font-size(@h3-size);
-  font-weight: 400;
+  font-weight: 200;
 }
 
 h4 {
   color: @h4-color;
   .font-size(@h4-size);
-  font-weight: 400;
+  font-weight: 200;
 }
 
 h5 {
   color: @h5-color;
   .font-size(@h5-size);
-  font-weight: 400;
+  font-weight: 200;
 }
 
 h6 {
   color: @h6-color;
   .font-size(@h6-size);
-  font-weight: 400;
+  font-weight: 200;
 }
 
-ol, ul {
+ul {
   margin:0;
   padding: 0
 }
@@ -82,6 +84,66 @@ a{
 .wso2-icon {
   text-align: center;
 }
+.wso2-icon-on-top{
+  z-index: 1041;
+  font-size:50px;
+  color:@aqua;
+  position: absolute;
+  left: 50%;
+  top:50px;
+}
+.wso2-icon-thumbnail{
+  background: #efefef;
+  font-size:100px;
+  display: block;
+  height: 150px;
+  line-height: 150px;
+  width:auto;
+  text-align: center;
+}
+.loading-inline-container{
+  width:100%;
+  height:100px;
+}
 label.error{
   color:#ff0000;
+}
+.modal-backdrop-inside{
+  position: absolute;
+}
+#btn-scroll-to-top{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.truncated-para{
+  position: relative;
+  height: 7.2em; /* exactly three lines */
+  overflow: hidden;
+}
+.truncated-para:before{
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 6.2em;
+  .gradient(fadeout(@page-bg,90%),@page-bg);
+}
+.space-right-20{
+  margin-right:20px;
+}
+.space-top-10{
+  margin-top:10px;
+}
+.space-top-20{
+  margin-top:20px;
+}
+
+.space-bottom-20{
+  margin-bottom:20px;
+}
+.space-bottom-20{
+  margin-bottom:20px;
 }

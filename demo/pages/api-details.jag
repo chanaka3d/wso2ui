@@ -1,0 +1,230 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <ol class="breadcrumb">
+        <li><a href="?page=api-home">APIs</a></li>
+        <li class="active">Google Storage Server</li>
+    </ol>
+    <h1 class="pull-left hsub"><i class="fa fa-cogs"></i> Google Storage Server</h1>
+</div>
+
+<div class="page-content ">
+
+
+<div class="row">
+<div class="col-xs-12">
+
+    <div class="panel panel-default panel-blog">
+        <div class="panel-body">
+
+            <ul class="item-meta clearfix">
+                <li>By: <a href="">Pradeep</a></li>
+                <li>April 01, 2014</li>
+                <li>
+                    <span class="rating-filled">
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star star-active"></span>
+                        <span class="fa fa-star-o star"></span>
+                        <span class="fa fa-star-o star"></span>
+                    </span>
+                </li>
+                <li>
+                    Published
+                </li>
+            </ul>
+
+                <div class="space-right-20 pull-left">
+                    <img src="img/04-google-spread-sheet-icon.png" class="pull-left app-stand-alone-icon" />
+                </div>
+                <div class="pull-left">
+                    <div>
+                        <label><b>Applications</b></label>
+                        <br>
+                        <select id="application-list">
+                            <option value="createNewApp">New Application...</option>
+                            <optgroup label="My Applications">
+                                <option value="1" selected="">DefaultApplication</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div>
+                        <label><b>Tiers</b></label>
+                        <br>
+                        <select name="tiers-list" id="tiers-list">
+                            <option value="Unlimited">Unlimited</option>
+                        </select>
+                        <span id="tierDesc" class="help-block">Allows unlimited requests</span>
+                        <div class="simple-space-maker">
+                            <button class="btn btn-primary " id="subscribe-button">Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+        </div><!-- panel-body -->
+    </div>
+
+    <h2>Description</h2>
+
+    <div class="truncated-para">
+        <p>
+            The Foo Search API is part of Foo's v1.1 REST API. It allows queries against the indices of recent or popular foos and behaves similarily to, but not exactly like the Search feature available in Foo mobile or web clients, such as <a target="_blank" class="ext" href="https://Foo.com/search">Foo.com search</a><span class="ext"></span>.
+        </p>
+        <p>
+        Before getting involved, it's important to know that the Search API is focused on relevance and not completeness. This means that some foos and users may be missing from search results. If you want to match for completeness you should consider using a <a href="/docs/streaming-apis">Streaming API</a> instead.
+        </p>
+        <p>A detailed reference on this API endpoint can be found at <a href="/docs/api/1.1/get/search">GET search/foos</a>.</p>
+        <h3>How to build a query</h3>
+
+        <p>The best way to build a query and test if it's valid and will return matched foos is to first try it at <a target="_blank" class="ext" href="https://Foo.com/search">Foo.com/search</a><span class="ext"></span>. As you get a satisfactory result set, the URL loaded in the browser will contain the proper query syntax that can be reused in the API endpoint. Here's an example:</p>
+      <ol>
+        <li>We want to search for foos referencing @Fooapi account. First, we run the search on <a target="_blank" class="ext" href="https://Foo.com/search">Foo.com/search</a><span class="ext"></span></li>
+        <li>Check and copy the URL loaded. In this case, we got: <a target="_blank" class="ext" href="https://Foo.com/search?q=%40Fooapi">https://Foo.com/search?q=%40Fooapi</a><span class="ext"></span></li>
+        <li>Replace "https://Foo.com/search" with "https://api.Foo.com/1.1/search/foos.json" and you will get: <strong>https://api.Foo.com/1.1/search/foos.json?q=%40Fooapi</strong></li>
+        <li><a href="/console">Execute this URL</a> to do the search in the API</li>
+      </ol>
+
+      <p>Please note that now API v1.1 requires that the request must be authenticated, check <a href="/docs/auth">Authentication &amp; Authorization</a> documentation for more details on how to do it. Also note that the search results at Foo.com may return historical results while the Search API usually only serves foos from the past week.</p>
+    </div>
+    <button class="btn btn-default space-bottom-20">More info</button>
+
+    <ul class="nav nav-pills">
+        <li class="active"><a data-toggle="tab" href="#nav-pills-tab-1">Overview</a></li>
+        <li><a data-toggle="tab" href="#nav-pills-tab-2">Documentation</a></li>
+        <li><a data-toggle="tab" href="#nav-pills-tab-3">API Console</a></li>
+        <li><a data-toggle="tab" href="#nav-pills-tab-4">Throttling Info</a></li>
+        <li><a data-toggle="tab" href="#nav-pills-tab-5">Forum</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="nav-pills-tab-1" class="tab-pane fade active in">
+            <h3 class="m-t-10">Production and Sandbox URLs:</h3>
+            <div class="well well-small api_urls">http://192.168.43.4:8296/d/1</div>
+            <div class="well well-small api_urls"> https://192.168.43.4:8259/d/1</div>
+        </div>
+        <div id="nav-pills-tab-2" class="tab-pane fade">
+            <h3 class="m-t-10">Nav Pills Tab 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer ac dui eu felis hendrerit lobortis. Phasellus elementum, nibh eget adipiscing porttitor,
+                est diam sagittis orci, a ornare nisi quam elementum tortor.
+                Proin interdum ante porta est convallis dapibus dictum in nibh.
+                Aenean quis massa congue metus mollis fermentum eget et tellus.
+                Aenean tincidunt, mauris ut dignissim lacinia, nisi urna consectetur sapien,
+                nec eleifend orci eros id lectus.
+            </p>
+        </div>
+        <div id="nav-pills-tab-3" class="tab-pane fade">
+            <h3 class="m-t-10">Nav Pills Tab 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer ac dui eu felis hendrerit lobortis. Phasellus elementum, nibh eget adipiscing porttitor,
+                est diam sagittis orci, a ornare nisi quam elementum tortor.
+                Proin interdum ante porta est convallis dapibus dictum in nibh.
+                Aenean quis massa congue metus mollis fermentum eget et tellus.
+                Aenean tincidunt, mauris ut dignissim lacinia, nisi urna consectetur sapien,
+                nec eleifend orci eros id lectus.
+            </p>
+        </div>
+        <div id="nav-pills-tab-4" class="tab-pane fade">
+            <h3 class="m-t-10">Nav Pills Tab 4</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer ac dui eu felis hendrerit lobortis. Phasellus elementum, nibh eget adipiscing porttitor,
+                est diam sagittis orci, a ornare nisi quam elementum tortor.
+                Proin interdum ante porta est convallis dapibus dictum in nibh.
+                Aenean quis massa congue metus mollis fermentum eget et tellus.
+                Aenean tincidunt, mauris ut dignissim lacinia, nisi urna consectetur sapien,
+                nec eleifend orci eros id lectus.
+            </p>
+        </div>
+        <div id="nav-pills-tab-5" class="tab-pane fade">
+            <h3 class="m-t-10">Nav Pills Tab 4</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer ac dui eu felis hendrerit lobortis. Phasellus elementum, nibh eget adipiscing porttitor,
+                est diam sagittis orci, a ornare nisi quam elementum tortor.
+                Proin interdum ante porta est convallis dapibus dictum in nibh.
+                Aenean quis massa congue metus mollis fermentum eget et tellus.
+                Aenean tincidunt, mauris ut dignissim lacinia, nisi urna consectetur sapien,
+                nec eleifend orci eros id lectus.
+            </p>
+        </div>
+    </div>
+
+    <h2>4 comments</h2>
+    <ul class="media-list">
+        <li class="media">
+            <a class="pull-left" href="#">
+                <img class="media-object" src="img/user1.png"
+                     alt="Generic placeholder image">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">Asela</h4>
+                <span class="msg-time">
+                    <i class="wso2-icon fa fa-clock-o"></i>
+                    <span>a moment ago</span>
+                </span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales neque eu metus consectetur
+                    ultricies. Integer iaculis diam lorem, quis feugiat lectus pharetra sit amet. </p>
+                <!-- Nested media object -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/user2.png"
+                             alt="Generic placeholder image">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Prabath</h4>
+                        <span class="msg-time">
+                            <i class="wso2-icon fa fa-clock-o"></i>
+                            <span>20 minutes ago</span>
+                        </span>
+                        <p>Phasellus gravida diam eu mi eleifend, id dignissim ligula cursus. Quisque blandit orci diam. </p>
+
+                    </div>
+                </div>
+                <!-- Nested media object -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/user3.png"
+                             alt="Generic placeholder image">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Chanaka</h4>
+                        <span class="msg-time">
+                            <i class="wso2-icon fa fa-clock-o"></i>
+                            <span>40 minutes ago</span>
+                        </span>
+                        <p>Phasellus gravida diam eu mi eleifend, id dignissim ligula cursus. Quisque blandit orci diam.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="media">
+            <a class="pull-left" href="#">
+                <img class="media-object" src="img/user4.png"
+                     alt="Generic placeholder image">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">Amal</h4>
+                <span class="msg-time">
+                    <i class="wso2-icon fa fa-clock-o"></i>
+                    <span>55 minutes ago</span>
+                </span>
+                <p>Phasellus gravida diam eu mi eleifend, id dignissim ligula cursus. Quisque blandit orci diam.</p>
+            </div>
+        </li>
+    </ul>
+    <form role="form">
+        <div class="form-group">
+            <label for="commentIn">Comment</label>
+            <textarea class="form-control" rows="3" id="commentIn"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-default">Add Comment</button>
+    </form>
+
+</div>
+</div>
+
+</div>
+
+

@@ -7,12 +7,13 @@
 @leftmenu-border-sub-color:lighten(@leftmenu-text-color,10%); //dotted borders
 
 //Active section
-@leftmenu-back-active:darken(@leftmenu-back,5%);
+@leftmenu-back-active:@aqua;
+@leftmenu-back-active-text:@white;
 @leftmenu-cat-color:@leftmenu-text-color;
 @leftmenu-cat-hover:darken(@leftmenu-back,10%);
 
 //Active pointer
-@leftmenu-pointer-color:@page-bg;
+@leftmenu-pointer-color:@black;
 
 
 @leftmenu-gutter-width:10px;
@@ -80,6 +81,10 @@
       >a{
         border-left:solid 2x @leftmenu-pointer-color;
         background: @leftmenu-back-active;
+        color: @leftmenu-back-active-text;
+        >i{
+          color: @leftmenu-back-active-text;
+        }
         &:before{
           content: "";
           position: absolute;

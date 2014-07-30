@@ -10,7 +10,7 @@
         <div class="navbar-header pull-left">
             <a href="#" class="navbar-brand">
                 <small>
-                    <img src="img/wso2-logo.png" /> Portal
+                    <img src="img/wso2-logo.png" /> API Store
                 </small>
             </a>
             <ul class="nav header-nav-left">
@@ -21,12 +21,12 @@
                                 <div class="dropdown">
                                   <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-credit-card"></i>  <span class="caret"></span></a>
                                   <ul role="menu" class="dropdown-menu dropdown-menu-left">
-                                    <li><a href="#"><i class="fa fa-credit-card"></i>  Type A</a></li>
-                                    <li><a href="#"><i class="fa fa-table"></i>  Type B</a></li>
+                                    <li><a href="#"><i class="fa fa-credit-card"></i>  APIs</a></li>
+                                    <li><a href="#"><i class="fa fa-table"></i>  Applications</a></li>
                                   </ul>
                                 </div>
                           </div>
-                          <input type="text" placeholder="Search type A" class="form-control">
+                          <input type="text" placeholder="Search APIs" class="form-control">
                           <div class="input-group-addon"><button class="btn btn-primary "><i class="fa fa-search"></i></button></div>
                         </div>
                     </div>
@@ -69,8 +69,6 @@
                         <div class="dropdown-content">
                             <div class="checkbox">
                                 <label><input type="checkbox" value="fixed-container"> Fixed Size</label>
-                                <label><input type="checkbox" value="browser-compatibility"> Browser Compatibility</label>
-                                <label><input type="checkbox" value="developer-help"> Developer Help</label>
                             </div>
                         </div>
                     </div>
