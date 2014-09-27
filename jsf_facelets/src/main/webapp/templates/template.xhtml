@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:wso2="http://java.sun.com/jsf/composite/wso2"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=UTF-8"/>
+    <h:outputStylesheet library="css" name="styles.css"/>
+    <title>Facelets Template</title>
+</h:head>
+
+<h:body styleClass="no-skin">
+
+    <!--Tom menu goes here-->
+    <ui:insert name="top"><ui:include src="common/top.xhtml"></ui:include></ui:insert>
+
+    <div class="main-container" id="main-container">
+        <div id="leftmenu" class="leftmenu responsive collapse navbar-collapse">
+            <ui:insert name="left"><ui:include src="common/left.xhtml"></ui:include></ui:insert>
+        </div>
+
+
+        <div class="main-content clearfix">
+
+            <div class="breadcrumbs" id="breadcrumbs">
+                <!--breadcrumb content goes here-->
+                <ui:insert name="breadcrumbs"></ui:insert>
+            </div>
+            <div class="page-content ">
+                <ui:insert name="content">Main Content</ui:insert>
+            </div>
+            <!-- page-content -->
+
+        </div>
+        <!-- /.page-content -->
+        <!-- /.main-content -->
+
+
+        <ui:insert name="footer"><ui:include src="common/footer.xhtml"></ui:include></ui:insert>
+
+        <ui:insert name="widgetsBottom"><wso2:linkToTop /></ui:insert>
+
+
+        <!--Link to top goes here-->
+
+    </div>
+
+
+</h:body>
+</html>

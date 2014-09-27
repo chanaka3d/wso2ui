@@ -7804,7 +7804,7 @@ button.close {
   content: "\f1e2";
 }
 /*
-    Page: 404 and 500 error pages (fonts.less)
+    Page: (fonts.less)
 ------------------------------------
 */
 @font-face {
@@ -8038,7 +8038,7 @@ label.error {
   padding: 8px 20px 24px;
 }
 /*
-    Page: 404 and 500 error pages (animation.less)
+    Page: animations (animation.less)
 ------------------------------------
 */
 .my-bell-ring {
@@ -8563,7 +8563,7 @@ label.error {
   border-bottom: solid 1px #4098ca;
 }
 /*
-    Page: 404 and 500 error pages (footer.less)
+    Page:  (footer.less)
 ------------------------------------
 */
 .footer {
@@ -8706,7 +8706,7 @@ label.error {
   background: #001f3f;
 }
 /*
-    Page: 404 and 500 error pages (dropdown.less)
+    Page: dropdowns (dropdown.less)
 ------------------------------------
 */
 .dropdown-menu > li > a:focus > .wso2-icon,
@@ -8861,7 +8861,7 @@ label.error {
   z-index: auto;
 }
 /*
-    Page: 404 and 500 error pages (forums.less)
+    Page: (forums.less)
 ------------------------------------
 */
 .form-control:focus {
@@ -8884,19 +8884,19 @@ label.error {
 ------------------------------------
 */
 /*
-    Page: 404 and 500 error pages (boxes.less)
+    Page: boxes (boxes.less)
 ------------------------------------
 */
 /*
-    Page: 404 and 500 error pages (buttons.less)
+    Page: (buttons.less)
 ------------------------------------
 */
 /*
-    Page: 404 and 500 error pages (callout.less)
+    Page: (callout.less)
 ------------------------------------
 */
 /*
-    Page: 404 and 500 error pages (alerts.less)
+    Page: alerts (alerts.less)
 ------------------------------------
 */
 .breadcrumbs {

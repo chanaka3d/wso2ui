@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: chanaka
+  Date: 8/18/14
+  Time: 12:13 PM
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:composite="http://java.sun.com/jsf/composite"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:cc="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Simple JSF Facelets page</title>
+</h:head>
+
+<h:body>
+    <composite:interface>
+        <composite:attribute name="apiName" type="java.lang.String" default="API Name"></composite:attribute>
+        <composite:attribute name="apiCreator" type="java.lang.String" default="API Creator"></composite:attribute>
+    </composite:interface>
+    <composite:implementation>
+
+
+
+                        <div class="thumbnail">
+                            <a href="?page=api-details"><i class="fa #{cc.attrs.apiName} wso2-icon-thumbnail"></i></a>
+
+                            <div class="caption">
+                                <a class="link-h1" href="?page=api-details">#{cc.attrs.apiName}</a>
+                                <a class="link-h2">#{cc.attrs.apiCreator}</a>
+
+                                    <span class="rating-filled">
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star star-active"></span>
+                                        <span class="fa fa-star-o star"></span>
+                                        <span class="fa fa-star-o star"></span>
+                                    </span>
+                            </div>
+                        </div>
+
+
+
+        <!-- row -->
+    </composite:implementation>
+</h:body>
+
+</html>

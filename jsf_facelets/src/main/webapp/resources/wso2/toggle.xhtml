@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: chanaka
+  Date: 8/18/14
+  Time: 12:13 PM
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:composite="http://java.sun.com/jsf/composite"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Simple JSF Facelets page</title>
+</h:head>
+
+<h:body>
+    <composite:interface>
+    </composite:interface>
+    <composite:implementation>
+    <div id="wso2-right-panel-container" class="wso2-right-panel-container">
+        <div id="wso2-right-panel-btn" class="wso2-right-panel-btn">
+            <i class="wso2-icon fa fa-bell  my-bell-ring"></i>
+            <span class="badge badge-important">8</span>
+        </div>
+        <div id="wso2-right-panel-box" class="wso2-right-panel-box clearfix">
+            <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a data-toggle="tab" href="#rp-alluser"><i class="fa fa-users"></i></a></li>
+                <li><a data-toggle="tab" href="#rp-favorites"><i class="fa fa-heart"></i></a></li>
+                <li><a data-toggle="tab" href="#rp-history"><i class="fa fa-clock-o"></i></a></li>
+                <li><a data-toggle="tab" href="#rp-settings"><i class="fa fa-gear"></i></a></li>
+            </ul>
+            <!-- Tab panes -->
+            <!-- tab-content -->
+            <div class="tab-content scrollable">
+                <div id="rp-alluser" class="tab-pane active">
+                    <div class="notifications clearfix">
+                        <div class="msg-container">
+                            <a href="#">
+                                <img src="img/avatar.png" class="msg-photo"
+                                     alt="Alex's Avatar"></img>
+                                        <span class="msg-body">
+                                            <span class="msg-title">
+                                                Jenkins: <small>Build failed</small>
+                                            </span>
+
+                                            <span class="msg-time">
+                                                <i class="wso2-icon fa fa-clock-o"></i>
+                                                <span>a moment ago</span>
+                                            </span>
+                                        </span>
+                            </a>
+                        </div>
+
+                        <div class="msg-container">
+                            <a href="#">
+                                <img src="img/avatar2.png" class="msg-photo"
+                                     alt="Susan's Avatar"></img>
+                                        <span class="msg-body">
+                                            <span class="msg-title">
+                                                Jira: <small>issue is created</small>
+                                            </span>
+
+                                            <span class="msg-time">
+                                                <i class="wso2-icon fa fa-clock-o"></i>
+                                                <span>20 minutes ago</span>
+                                            </span>
+                                        </span>
+                            </a>
+                        </div>
+                        <div class="msg-container">
+                            <a href="#">
+                                <img src="img/avatar.png" class="msg-photo" alt="Alex's Avatar"></img>
+                                            <span class="msg-body">
+                                                <span class="msg-title">
+                                                    Jenkins:<small>Build successful</small>
+                                                </span>
+
+                                                <span class="msg-time">
+                                                    <i class="wso2-icon fa fa-clock-o"></i>
+                                                    <span>3:15 pm</span>
+                                                </span>
+                                            </span>
+                            </a>
+                        </div>
+                        <div class="msg-container">
+                            <a href="#">
+                                <img src="img/avatar.png" class="msg-photo" alt="Alex's Avatar"></img>
+                                            <span class="msg-body">
+                                                <span class="msg-title">
+                                                    Jenkins:<small>Build successful</small>
+                                                </span>
+
+                                                <span class="msg-time">
+                                                    <i class="wso2-icon fa fa-clock-o"></i>
+                                                    <span>3:15 pm</span>
+                                                </span>
+                                            </span>
+                            </a>
+                        </div>
+                        <div class="msg-container">
+                            <a href="#">
+                                <img src="img/avatar.png" class="msg-photo" alt="Alex's Avatar"></img>
+                                            <span class="msg-body">
+                                                <span class="msg-title">
+                                                    Jenkins:<small>Build successful</small>
+                                                </span>
+
+                                                <span class="msg-time">
+                                                    <i class="wso2-icon fa fa-clock-o"></i>
+                                                    <span>3:15 pm</span>
+                                                </span>
+                                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="rp-favorites" class="tab-pane">
+                    tab2
+                </div>
+                <div id="rp-history" class="tab-pane">
+                    tab3
+                </div>
+                <div id="rp-settings" class="tab-pane pane-settings">
+                    tab4
+                </div><!-- tab-pane -->
+            </div>
+        </div><!-- /.wso2-settings-box -->
+    </div>
+    </composite:implementation>
+</h:body>
+
+</html>
